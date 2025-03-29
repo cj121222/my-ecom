@@ -1,14 +1,14 @@
 {
+  "homepage": "https://cj121222.github.io/myecom"
   "name": "notes-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+,
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
     "react": "^19.0.0",
