@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://cj121222.github.io/my-ecom",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
